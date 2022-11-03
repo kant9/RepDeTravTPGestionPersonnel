@@ -1,0 +1,146 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: chocolate;
+} */
+.contenantGlogal
+{
+    background-image: url("monImge.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 95%;
+    height: 130px;
+     padding: 180px  2.5%;
+    margin:0 auto;
+    margin-top:1%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-bottom: 0px; 
+}
+
+#create-account-form {
+    width:100%;
+    padding:20px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin:20px 0; 
+    position:relative;
+}
+
+.input-group label {
+    display:inline-block;
+    margin-bottom: 3px;
+}
+
+.input-group input[type="text"], input[type="password"], input[type="email"], input[type="file"] {
+    /* display:block; */
+    width: 100%;
+    padding:10px;   
+    border: 1px solid black;
+  
+    /* height: 30px; */
+    border-color: #4B6299;
+    box-shadow: 0px 2px 1px 1px rgb(22, 27, 43);
+    border-bottom: 1px solid black;
+}
+
+.input-group select {
+    /* display:block; */
+    width:100%;
+    padding:10px;   
+}
+.error input {
+    border:3px red solid;
+}
+
+.success input {
+    border:3px green solid;
+}
+
+ .input-group i {
+     position:absolute;
+     right:10px;
+     top:35px;
+     visibility: hidden;
+ }
+
+
+ .success i.fa-check-circle{
+     visibility: visible;
+     color:green;
+ }
+
+ .error i.fa-exclamation-circle {
+    visibility: visible;
+    color:red;
+}
+
+
+ .input-group p {
+     font-size: 15px;
+     color:red;
+     visibility: hidden;
+ }
+
+ .error p {
+     visibility: visible;
+ }
+
+ .btn {
+     width:17%;
+     padding:10px;
+     font-size: 20px;
+     border:none;
+     background-color: #1829BF;
+    border-radius: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #FFFFFF;
+    
+ }
+ 
+ .btn:hover {
+   
+    background-color: orangered;
+   border-radius: 14px;
+   cursor: pointer;
+   font-weight: bold;
+   color: #FFFFFF;
+   
+}
+
+
+
+ /* Ajout et adaptation */
+.contenantPartieGDduFormulaire
+{
+    
+    display: flex;
+    gap: 10px;
+    box-shadow: 2px 1px 10px 3px lightblue;
+    width: 99%;
+    height: 420px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
